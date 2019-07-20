@@ -81,10 +81,10 @@ namespace AxICAClientWrapper
         protected override void OnParentFontChanged(EventArgs e)
         {
             /**
-             *   Ignoring this event, since responding to this, will crash the ectiveX ceontol 
+             *   Ignoring this event, since responding to this, will crash the ActiveX control 
              *   for Citrix AxWFICALib.IcaClient.
              *   
-             *   When you ahre experiencing the crashes in 
+             *   do NOT call:
              */
             // base.OnParentFontChanged(e);
         }
