@@ -3,7 +3,7 @@ Wraper for AxICAClient to prevent crashes in ICAClient
 
 Use this wrapper class for AxWFICALib.AxICAClient if you experience crashes as shown below. These crashes occur in the Citrix ICACLient control, for example when a form with the control on it is docked/undocked with the WeifenLuo DockPanelSuite (but theyre might be more cases where this happens)...
  
-To use this wrapper, build your form as normally. Once happy, open the code for yout forms designer and replace in the 'InitializeComponent()':
+To use this wrapper, build your form as normally. Once happy, open the code for your forms designer and replace in the 'InitializeComponent()':
 
     this.icaClient = new AxWFICALib.AxICAClient();
 with
