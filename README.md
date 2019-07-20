@@ -7,13 +7,14 @@ To use this wrapper, build your form as normally. Once happy, open the code for 
 
     this.icaClient = new AxWFICALib.AxICAClient();
 with
+
      this.icaClient = new AxICAClientWrapper.AxICAClientWrapper();
 
-NOTE
+### NOTE
 Make sure to compile your application, before trying to open the form!
 The wrapper is in place only after a succesfull compile of the binary containing the wrapper...
  
-Exception:
+# Exception:
 ==========
 System.ArgumentException
 HResult=0x80070057
